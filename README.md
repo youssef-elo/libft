@@ -6,25 +6,36 @@ My custom C library for 42 School projects
 Libft is a custom C library that reimplements standard functions from <string.h>, <ctype.h>, <stdlib.h>, and more, while adding original utility functions. It serves as the foundation for all future 42 projects.
 
 Key Objectives
+
 ✔️ Reinforce C programming fundamentals
+
 ✔️ Create reusable code for future projects
+
 ✔️ Master memory management and pointers
+
 ✔️ Adhere to 42's coding standards (Norminette)
 
 # 🎯 Features
 1. Standard Function Reimplementations
-  Header	Functions
-  <ctype.h>	ft_isalpha, ft_isdigit, ft_toupper, etc.
-  <string.h>	ft_strlen, ft_strlcpy, ft_strnstr, etc.
-  <stdlib.h>	ft_atoi, ft_calloc, etc.
-2. Additional Utility Functions
-  Category	Functions
-  Memory	ft_memcmp, ft_bzero, etc.
-  String	ft_substr, ft_strjoin, ft_split, etc.
-  Linked Lists	ft_lstnew, ft_lstadd_back, etc. (Bonus)
-  Printing	ft_putchar_fd, ft_putnbr_fd, etc.
-3. Bonus Features
-  Linked list manipulation functions
+
+    <ctype.h>	ft_isalpha, ft_isdigit, ft_toupper, etc.
+    
+    <string.h>	ft_strlen, ft_strlcpy, ft_strnstr, etc.
+    
+    <stdlib.h>	ft_atoi, ft_calloc, etc.
+
+3. Additional Utility Functions
+
+    Memory	        ft_memcmp, ft_bzero, etc.
+   
+    String	        ft_substr, ft_strjoin, ft_split, etc.
+   
+    Linked Lists	  ft_lstnew, ft_lstadd_back, etc. (Bonus)
+   
+    Printing	      ft_putchar_fd, ft_putnbr_fd, etc.
+   
+5. Bonus Features
+    Linked list manipulation functions
 
 # ⚙️ Technical Implementation
 Key Design Choices
